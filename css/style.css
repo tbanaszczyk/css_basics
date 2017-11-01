@@ -1,8 +1,10 @@
-body
+body {
+  /* body font format */
   font-size: 14px;
 }
 
 nav {
+  /* format for the site layout */
   background color: yellow;
   height: 100px;
   margin-top: -10px;
@@ -11,27 +13,36 @@ nav {
 }
 
 section {
+  /* format for sections */
   margin: 0 auto;
   width: 60%;
 }
 
 h1 {
-  font-family sans-serif;
+  /* format applied to heading #1 */
+  font-family: sans-serif;
   font-size: 2em;
 }
 
 .example, h3 {
+  /* format applied to heading #3 */
   padding-top: 30px;
-  text-align center
-}
-
-h3 {
+  text-align: center;
   font-size: 1.3em;
 }
 
 .element {
+  /* format applied to all div elements */
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.feature {
+  /* specific to the last three div elements renamed to feature */
+  background-color: blue;
+  height: 100px;
+  margin: 10px 0;
   width: 100%;
 }
